@@ -1,6 +1,5 @@
 <?= loadPartial('head')?>
 <?= loadPartial('navbar')?>
-<?= loadPartial('showcase')?>
 <?= loadPartial('top-banner')?>
   
     <!-- Job Listings -->
@@ -187,16 +186,9 @@
             </div>
           </div>
         </div>
-        <a href="/listings" class="block text-xl text-center">
-          <i class="fa fa-arrow-alt-circle-right"></i>
-          Show All Jobs
-        </a>
       </section>
-<?= loadPartial('bottom-banner') ?>
-<?= loadPartial('footer')?>
-     
 
-
-       
+       <?= loadPartial('bottom-banner') ?>
+			<?= loadPartial('footer')?>
      
   
